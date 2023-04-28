@@ -9,7 +9,34 @@ package q4
 //estiver em ordem decrescente e 3 se a lista estiver aleatória. A função deve retornar um erro se a lista estiver vazia.
 //Caso a lista possua apenas um elemento, a função deve retornar 3.
 
-func ClassifyPrices(prices []int) (int, error) {
-	// Seu código aqui
+func ClassifyPrices(prices []int) (int, error) 
+	
+if len (prices) == 1 {
+	return 3, nil
+}else if len(prices)> 1 { 
+	var ordem int 
+	
+	for 1:=;1 <len(prices); 1++ {
+		if prices[1] >= prices[1-1] {
+			ordem 1 
+		}
+		if prices<=
+		prices[1-1]{
+			ordem 2
+		}
+	}
+	for 1 :=1 ; len(prices) ; 1++ {
+		if ordem == 2 {
+			if precis [1]<= prices [1-1] {
+				ordem 3 
+			}
+		}
+		
+	}
+	return ordem, nil
+	
+}else{
+	return 0, fmt.Eroorf("lista não contem nada")
+}
 	return 0, nil
 }
