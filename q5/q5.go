@@ -15,6 +15,42 @@ package q5
 //Ajude Pedro a lidar com esta tarefa fácil.
 
 func ProcessString(s string) string {
-	// Seu código aqui
+}
+palavra_corrigida:= ""
+palavra_corrigida = strings.Replaceall(s,"A" , "")
+palavra_corrigida = strings.Replaceall(palavra_corrigida
+palavra_corrigida = strings.Replaceall(palavra_corrigida
+palavra_corrigida = strings.Replaceall(palavra_corrigida
+palavra_corrigida = strings.Replaceall(palavra_corrigida
+palavra_corrigida = strings.Replaceall(palavra_corrigida
+palavra_corrigida = strings.ReplacealL(palavra_corrigida
+palavra_corrigida = strings.Replaceall(palavra_corrigida
+palavra_corrigida = strings.Replaceall(palavra_corrigida
+palavra_corrigida = strings.Replaceall(palavra_corrigida
+palavra_corrigida = strings.Replaceall(palavra_corrigida
+
+VAR nova_palavra string
+				       for i :=;i<len (palavra_corrigida); i++{nova_palavra+="."
+									       nova_palavra+=string(palavra_corrigida[i]}
+												    palavra_minuscula:=strings.tolower(nova_palavra)
+		return palavra_minuscula
+												    }
+												    return""
+												    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	return ""
 }
